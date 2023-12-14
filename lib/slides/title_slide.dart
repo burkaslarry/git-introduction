@@ -2,7 +2,10 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_deck/flutter_deck.dart';
 
 class TitleSlide extends FlutterDeckSlideWidget {
-  const TitleSlide()
+  final String title;
+  final String subtitle;
+
+  const TitleSlide({required this.title, required this.subtitle})
       : super(
     configuration: const FlutterDeckSlideConfiguration(
       route: '/intro',
@@ -13,8 +16,8 @@ class TitleSlide extends FlutterDeckSlideWidget {
   @override
   FlutterDeckSlide build(BuildContext context) {
     return FlutterDeckSlide.title(
-      title: 'Welcome to flutter_deck example! 🚀',
-      subtitle: 'Use left and right arrow keys to navigate.',
+      title: title,
+      subtitle: subtitle,
     );
   }
 }

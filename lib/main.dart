@@ -83,15 +83,17 @@ class FlutterDeckExample extends StatelessWidget {
       ),
       // Presentation is build automatically from the list of slides.
       slides: const [
-        TitleSlide(),
+        TitleSlide(title:'Introduction To Git🚀', subtitle: 'Enable Collaboration Across the Globe'),
+        TitleSlide(title:'Git',subtitle: ''),
         QuoteSlide(),
         EndSlide(),
       ],
+
       // Do not forget to introduce yourself!
       speakerInfo: const FlutterDeckSpeakerInfo(
-        name: 'Flutter Deck',
-        description: 'The power of Flutter, in your presentations.',
-        socialHandle: 'flutter_deck',
+        name: 'Larry Lo',
+        description: 'System Analyst and Tech Enthusiast',
+        socialHandle: 'https://larrywebsite.vercel.app',
         imagePath: 'assets/flutter_logo.png',
       ),
     );
