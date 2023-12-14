@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339449a8-b9fc-493e-bf3c-0d7b6a8666ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/slides/end_slide.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slides/quote_slide.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slides/title_slide.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_introduction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/git_introduction.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702544833610</updated>
-      <workItem from="1702544834661" duration="629000" />
+      <workItem from="1702544834661" duration="1065000" />
     </task>
     <servers />
   </component>
