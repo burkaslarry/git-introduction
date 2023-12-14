@@ -96,7 +96,7 @@ class FlutterDeckExample extends StatelessWidget {
         name: 'Larry Lo',
         description: 'System Analyst and Tech Enthusiast',
         socialHandle: 'https://larrywebsite.vercel.app',
-        imagePath: 'assets/flutter_logo.png',
+        imagePath: 'assets/avatar.png',
       ),
     );
   }
