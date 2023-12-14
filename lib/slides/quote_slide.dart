@@ -2,21 +2,25 @@ import 'package:flutter/material.dart';
 import 'package:flutter_deck/flutter_deck.dart';
 
 class QuoteSlide extends FlutterDeckSlideWidget {
-  const QuoteSlide()
+
+  final String title;
+  final String subtitle;
+
+  const QuoteSlide(this.title, this.subtitle)
       : super(
     configuration: const FlutterDeckSlideConfiguration(
-      route: '/quote',
+      route: "/quote",
       header: FlutterDeckHeaderConfiguration(
-        title: 'Quote slide template',
+        title: "Quote slide template",
       ),
     ),
   );
 
   @override
   FlutterDeckSlide build(BuildContext context) {
+
     return FlutterDeckSlide.quote(
-      quote:
-      '"If you really look closely, most overnight successes took a long time."',
+      quote: this.title,
       attribution: '- Steve Jobs',
       theme: FlutterDeckTheme.of(context).copyWith(
         quoteSlideTheme: const FlutterDeckQuoteSlideThemeData(

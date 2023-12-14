@@ -1,14 +1,14 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_deck/flutter_deck.dart';
 
-class EndSlide extends FlutterDeckSlideWidget {
+class CreditSlide extends FlutterDeckSlideWidget {
   final String title;
   final String subtitle;
 
-  const EndSlide(this.title, this.subtitle)
+  const CreditSlide(this.title, this.subtitle)
       : super(
     configuration: const FlutterDeckSlideConfiguration(
-      route: '/end',
+      route: '/credits',
       footer: FlutterDeckFooterConfiguration(showFooter: false),
     ),
   );

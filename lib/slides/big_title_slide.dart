@@ -4,15 +4,14 @@ import 'package:flutter/material.dart';
 
 class BigTitleSlide extends FlutterDeckSlideWidget {
   final String title;
+  @override
+  final FlutterDeckSlideConfiguration configuration;
 
   //TitleSlide(this.title, this.subtitle, this.route );
 
-  const BigTitleSlide(this.title)
+  const BigTitleSlide(this.title, this.configuration)
       : super(
-    configuration: const FlutterDeckSlideConfiguration(
-      route: '/intro',
-      footer: FlutterDeckFooterConfiguration(showFooter: false),
-    ),
+    configuration: configuration,
   );
 
   @override

@@ -5,15 +5,14 @@ import 'package:flutter/material.dart';
 class TitleSlide extends FlutterDeckSlideWidget {
   final String title;
   final String subtitle;
+  @override
+  final FlutterDeckSlideConfiguration configuration;
 
   //TitleSlide(this.title, this.subtitle, this.route );
 
-  const TitleSlide(this.title, this.subtitle)
+  const TitleSlide(this.title, this.subtitle, this.configuration)
       : super(
-    configuration: const FlutterDeckSlideConfiguration(
-      route: '/route',
-      footer: FlutterDeckFooterConfiguration(showFooter: false),
-    ),
+    configuration: configuration,
   );
 
   @override
