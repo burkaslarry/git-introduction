@@ -10,7 +10,7 @@ class BigTitleSlide extends FlutterDeckSlideWidget {
   const BigTitleSlide(this.title)
       : super(
     configuration: const FlutterDeckSlideConfiguration(
-      route: '/intro/',
+      route: '/intro',
       footer: FlutterDeckFooterConfiguration(showFooter: false),
     ),
   );

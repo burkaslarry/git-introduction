@@ -11,7 +11,7 @@ class TitleSlide extends FlutterDeckSlideWidget {
   const TitleSlide(this.title, this.subtitle)
       : super(
     configuration: const FlutterDeckSlideConfiguration(
-      route: '/route/',
+      route: '/route',
       footer: FlutterDeckFooterConfiguration(showFooter: false),
     ),
   );
