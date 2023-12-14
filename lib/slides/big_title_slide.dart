@@ -2,16 +2,15 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_deck/flutter_deck.dart';
 import 'package:flutter/material.dart';
 
-class TitleSlide extends FlutterDeckSlideWidget {
+class BigTitleSlide extends FlutterDeckSlideWidget {
   final String title;
-  final String subtitle;
 
   //TitleSlide(this.title, this.subtitle, this.route );
 
-  const TitleSlide(this.title, this.subtitle)
+  const BigTitleSlide(this.title)
       : super(
     configuration: const FlutterDeckSlideConfiguration(
-      route: '/route/',
+      route: '/intro/',
       footer: FlutterDeckFooterConfiguration(showFooter: false),
     ),
   );
@@ -20,7 +19,7 @@ class TitleSlide extends FlutterDeckSlideWidget {
   FlutterDeckSlide build(BuildContext context) {
     return FlutterDeckSlide.title(
       title: title,
-      subtitle: subtitle,
+      subtitle: '',
     );
   }
 }

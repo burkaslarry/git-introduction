@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_deck/flutter_deck.dart';
+import 'package:git_introduction/slides/big_title_slide.dart';
 import 'package:git_introduction/slides/end_slide.dart';
 import 'package:git_introduction/slides/quote_slide.dart';
 import 'package:git_introduction/slides/title_slide.dart';
@@ -83,8 +84,9 @@ class FlutterDeckExample extends StatelessWidget {
       ),
       // Presentation is build automatically from the list of slides.
       slides: const [
-        TitleSlide(title:'Introduction To Git🚀', subtitle: 'Enable Collaboration Across the Globe'),
-        TitleSlide(title:'Git',subtitle: ''),
+        //TitleSlide(title:'Introduction To Git🚀', subtitle: 'Enable Collaboration Across the Globe'),
+        TitleSlide('Introduction To Git🚀', 'Enable Collaboration Across the Globe'),
+        BigTitleSlide('GIT'),
         QuoteSlide(),
         EndSlide(),
       ],
