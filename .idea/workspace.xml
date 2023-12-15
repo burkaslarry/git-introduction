@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339449a8-b9fc-493e-bf3c-0d7b6a8666ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/app_sourcetree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github_qr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github_repo_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github_repo_done.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/larry_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sourcetree_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sourcetree_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sourcetree_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slides/git_image_slide.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/larry-profile.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/slides/blank_slide_git_install.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/slides/blank_slide_whatisgit.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/slides/credits_slide.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/slides/credits_slide.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/slides/end_slide.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/slides/end_slide.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/slides/quote_slide.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/slides/quote_slide.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

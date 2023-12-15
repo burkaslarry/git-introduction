@@ -3,6 +3,7 @@ import 'package:flutter_deck/flutter_deck.dart';
 import 'package:git_introduction/slides/big_title_slide.dart';
 import 'package:git_introduction/slides/credits_slide.dart';
 import 'package:git_introduction/slides/end_slide.dart';
+import 'package:git_introduction/slides/git_image_slide.dart';
 import 'package:git_introduction/slides/title_slide.dart';
 
 
@@ -17,6 +18,8 @@ class FlutterDeckExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // This is an entry point for the Flutter Deck app.
+
+    // This is a list of [FlutterDeckSlideConfiguration]
 
     const firstIntro = FlutterDeckSlideConfiguration(
       route: '/intro',
@@ -68,6 +71,54 @@ class FlutterDeckExample extends StatelessWidget {
           showSlideNumbers: true),
     );
 
+    const gotImage001Intro = FlutterDeckSlideConfiguration(
+      route: '/image/1',
+      footer: FlutterDeckFooterConfiguration(showFooter: false,
+          showSlideNumbers: true),
+    );
+
+    const gotImage002Intro = FlutterDeckSlideConfiguration(
+      route: '/image/2',
+      footer: FlutterDeckFooterConfiguration(showFooter: false,
+          showSlideNumbers: true),
+    );
+
+
+    const gotImage003Intro = FlutterDeckSlideConfiguration(
+      route: '/image/3',
+      footer: FlutterDeckFooterConfiguration(showFooter: false,
+          showSlideNumbers: true),
+    );
+
+    const gotImage004Intro = FlutterDeckSlideConfiguration(
+      route: '/image/4',
+      footer: FlutterDeckFooterConfiguration(showFooter: false,
+          showSlideNumbers: true),
+    );
+
+    const gotImage005Intro = FlutterDeckSlideConfiguration(
+      route: '/image/5',
+      footer: FlutterDeckFooterConfiguration(showFooter: false,
+          showSlideNumbers: true),
+    );
+
+    const gotImage006Intro = FlutterDeckSlideConfiguration(
+      route: '/image/6',
+      footer: FlutterDeckFooterConfiguration(showFooter: false,
+          showSlideNumbers: true),
+    );
+
+    const gotImage007Intro = FlutterDeckSlideConfiguration(
+      route: '/image/7',
+      footer: FlutterDeckFooterConfiguration(showFooter: false,
+          showSlideNumbers: true),
+    );
+
+    const sourcetryyImageIntro = FlutterDeckSlideConfiguration(
+      route: '/image/app_sourcetree',
+      footer: FlutterDeckFooterConfiguration(showFooter: false,
+          showSlideNumbers: true),
+    );
 
 
     return FlutterDeckApp(
@@ -146,9 +197,17 @@ class FlutterDeckExample extends StatelessWidget {
         TitleSlide('Introduction To Git🚀', 'Enable Collaboration Across the Globe', firstIntro),
         BigTitleSlide('What is Git?', gitTitleIntro),
         BigTitleSlide('Installation procedures', gitTitle2Intro),
-        BigTitleSlide('GitHub - acccount setup', gitTitle3Intro),
-        BigTitleSlide('GitHub - create repositories', gitTitle4Intro),
+        GitImageSlide("SourceTree", "assets/app_sourcetree.png", sourcetryyImageIntro),
+        BigTitleSlide('GitHub - Account setup', gitTitle3Intro),
+        GitImageSlide("Github", "assets/github_qr.png", gotImage001Intro),
+        BigTitleSlide('GitHub - Create repositories', gitTitle4Intro),
+        GitImageSlide("Github", "assets/github_0.png", gotImage002Intro),
+        GitImageSlide("Github", "assets/github_repo_01.png", gotImage003Intro),
+        GitImageSlide("Github", "assets/github_repo_done.png", gotImage004Intro),
         BigTitleSlide('Git - commit',  gitTitle5Intro),
+        GitImageSlide("SourceTree", "assets/sourcetree_0.png", gotImage005Intro),
+        GitImageSlide("Github", "assets/sourcetree_1.png", gotImage006Intro),
+        GitImageSlide("Github", "assets/sourcetree_2.png", gotImage007Intro),
         BigTitleSlide('Git push',  gitTitle6Intro),
         CreditSlide('Credits', "Mangirdas Kazlauskas - https://github.com/mkobuolys/flutter_deck"),
         EndSlide('Thank you! 👋', "You can do it!"),
