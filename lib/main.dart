@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_deck/flutter_deck.dart';
 import 'package:git_introduction/slides/big_title_slide.dart';
-import 'package:git_introduction/slides/blank_slide_git_install.dart';
-import 'package:git_introduction/slides/blank_slide_whatisgit.dart';
 import 'package:git_introduction/slides/credits_slide.dart';
 import 'package:git_introduction/slides/end_slide.dart';
-import 'package:git_introduction/slides/quote_slide.dart';
 import 'package:git_introduction/slides/title_slide.dart';
 
 

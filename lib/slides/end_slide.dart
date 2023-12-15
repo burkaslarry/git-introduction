@@ -16,8 +16,8 @@ class EndSlide extends FlutterDeckSlideWidget {
   @override
   FlutterDeckSlide build(BuildContext context) {
     return FlutterDeckSlide.title(
-      title: this.title,
-      subtitle: this.subtitle,
+      title: title,
+      subtitle: subtitle,
     );
   }
 }

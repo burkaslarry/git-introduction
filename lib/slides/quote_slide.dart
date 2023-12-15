@@ -20,7 +20,7 @@ class QuoteSlide extends FlutterDeckSlideWidget {
   FlutterDeckSlide build(BuildContext context) {
 
     return FlutterDeckSlide.quote(
-      quote: this.title,
+      quote: title,
       attribution: '- Steve Jobs',
       theme: FlutterDeckTheme.of(context).copyWith(
         quoteSlideTheme: const FlutterDeckQuoteSlideThemeData(
