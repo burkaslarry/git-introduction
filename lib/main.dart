@@ -222,7 +222,7 @@ class FlutterDeckExample extends StatelessWidget {
         //TitleSlide(title:'Introduction To Git🚀', subtitle: 'Enable Collaboration Across the Globe'),
         TitleSlide('Introduction To Git🚀', 'Enable Collaboration Across the Globe', firstIntro),
         BigTitleSlide('What is Git?', gitTitleIntro),
-        TitleSlide('Git - Version Control System', 'allows multiple developers to work on the same project concurrently \n -Collaboration \n -Version Tracking, \n Code Quality' , aIntro),
+        TitleSlide('Git - Version Control System', 'allows multiple developers to work on the same project concurrently \n - Collaboration \n - Version Tracking, \n - Code Quality' , aIntro),
         BigTitleSlide('Installation procedures', gitTitle2Intro),
         GitImageSlide("SourceTree", "assets/app_sourcetree.png", sourcetryyImageIntro),
         BigTitleSlide('GitHub - Account setup', gitTitle3Intro),
