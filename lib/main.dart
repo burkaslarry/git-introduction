@@ -42,6 +42,32 @@ class FlutterDeckExample extends StatelessWidget {
           showSlideNumbers: true),
     );
 
+
+    const aIntro = FlutterDeckSlideConfiguration(
+      route: '/intro-git/1',
+      header: FlutterDeckHeaderConfiguration(showHeader: false),
+      footer: FlutterDeckFooterConfiguration(showFooter: false,
+          showSlideNumbers: true),
+    );
+
+
+    const bIntro = FlutterDeckSlideConfiguration(
+      route: '/intro-git/2',
+      header: FlutterDeckHeaderConfiguration(showHeader: false),
+      footer: FlutterDeckFooterConfiguration(showFooter: false,
+          showSlideNumbers: true),
+    );
+
+
+
+    const cIntro = FlutterDeckSlideConfiguration(
+      route: '/intro-git/3',
+      header: FlutterDeckHeaderConfiguration(showHeader: false),
+      footer: FlutterDeckFooterConfiguration(showFooter: false,
+          showSlideNumbers: true),
+    );
+
+
     const gitTitle3Intro = FlutterDeckSlideConfiguration(
       route: '/intro/3',
       header: FlutterDeckHeaderConfiguration(showHeader: false),
@@ -196,6 +222,7 @@ class FlutterDeckExample extends StatelessWidget {
         //TitleSlide(title:'Introduction To Git🚀', subtitle: 'Enable Collaboration Across the Globe'),
         TitleSlide('Introduction To Git🚀', 'Enable Collaboration Across the Globe', firstIntro),
         BigTitleSlide('What is Git?', gitTitleIntro),
+        TitleSlide('Git - Version Control System', 'allows multiple developers to work on the same project concurrently \n -Collaboration \n -Version Tracking, \n Code Quality' , aIntro),
         BigTitleSlide('Installation procedures', gitTitle2Intro),
         GitImageSlide("SourceTree", "assets/app_sourcetree.png", sourcetryyImageIntro),
         BigTitleSlide('GitHub - Account setup', gitTitle3Intro),

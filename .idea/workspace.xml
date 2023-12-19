@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339449a8-b9fc-493e-bf3c-0d7b6a8666ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/app_sourcetree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/github_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/github_qr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/github_repo_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/github_repo_done.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/larry_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sourcetree_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sourcetree_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sourcetree_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slides/git_image_slide.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/larry-profile.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dev/flutter_deck-0.8.0/lib/src/flutter_deck_slide.dart" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -105,6 +98,10 @@
       <workItem from="1702547284377" duration="1487000" />
       <workItem from="1702549534939" duration="2226000" />
       <workItem from="1702568110352" duration="6120000" />
+      <workItem from="1702989921642" duration="73000" />
+      <workItem from="1702990001444" duration="25000" />
+      <workItem from="1702990031463" duration="14000" />
+      <workItem from="1702990051212" duration="279000" />
     </task>
     <servers />
   </component>
