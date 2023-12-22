@@ -22,7 +22,8 @@ class FlutterDeckExample extends StatelessWidget {
     const gitTitle2Intro = FlutterDeckSlideConfiguration(route: '/intro/2', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const aIntro = FlutterDeckSlideConfiguration(route: '/intro-git/1', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const bIntro = FlutterDeckSlideConfiguration(route: '/intro-git/2', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
-    const cIntro = FlutterDeckSlideConfiguration(route: '/intro-git/3', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const branchIntro = FlutterDeckSlideConfiguration(route: '/intro-branch/1', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const branch2Intro = FlutterDeckSlideConfiguration(route: '/intro-branch/2', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
     const gitTitle3Intro = FlutterDeckSlideConfiguration(route: '/intro/3', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const gitTitle4Intro = FlutterDeckSlideConfiguration(route: '/intro/4', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
@@ -116,10 +117,11 @@ class FlutterDeckExample extends StatelessWidget {
         BigTitleSlide('What is Git?', gitTitleIntro),
         TitleSlide('Git - Version Control System', 'Allows multiple developers to work on the same project concurrently \n - Collaboration \n - Version Tracking, \n - Code Quality' , aIntro),
         TitleSlide('Git - Branches', 'parallel line of development that allows you to isolate changes and experiment without affecting the main codebase.' , bIntro),
-        GitImageSlide("Git - Branches", "assets/branches_1.png", cIntro),
-        GitImageSlide("Git - Branches", "assets/branches_2.png", cIntro),
+        GitImageSlide("Git - Branches", "assets/branches_1.png", branchIntro),
+        GitImageSlide("Git - Branches", "assets/branches_2.png", branch2Intro),
         BigTitleSlide('Installation procedures', gitTitle2Intro),
         GitImageSlide("SourceTree", "assets/app_sourcetree.png", sourcetryyImageIntro),
+        GitImageSlide("SourceTree", "assets/intelliJ.png", sourcetryyImageIntro),
         BigTitleSlide('GitHub - Account setup', gitTitle3Intro),
         GitImageSlide("Github", "assets/github_qr.png", gotImage001Intro),
         BigTitleSlide('GitHub - Create repositories', gitTitle4Intro),
