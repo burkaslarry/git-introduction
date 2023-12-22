@@ -24,6 +24,7 @@ class FlutterDeckExample extends StatelessWidget {
     const bIntro = FlutterDeckSlideConfiguration(route: '/intro-git/2', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const branchIntro = FlutterDeckSlideConfiguration(route: '/intro-branch/1', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const branch2Intro = FlutterDeckSlideConfiguration(route: '/intro-branch/2', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const branchingIntro = FlutterDeckSlideConfiguration(route: '/intro-git/3', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
     const gitTitle3Intro = FlutterDeckSlideConfiguration(route: '/intro/3', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const gitTitle4Intro = FlutterDeckSlideConfiguration(route: '/intro/4', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
@@ -45,6 +46,8 @@ class FlutterDeckExample extends StatelessWidget {
     const gitpush04 = FlutterDeckSlideConfiguration(route: '/image-push/4', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const gitpush05 = FlutterDeckSlideConfiguration(route: '/image-push/5', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
+    const gitpush06 = FlutterDeckSlideConfiguration(route: '/image-push/6', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitpush07 = FlutterDeckSlideConfiguration(route: '/image-push/7', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
 
     return FlutterDeckApp(
@@ -145,6 +148,11 @@ class FlutterDeckExample extends StatelessWidget {
         GitImageSlide("Github", "assets/git_push_03.png", gitpush03),
         GitImageSlide("Github", "assets/git_push_04.png", gitpush04),
         GitImageSlide("Github", "assets/git_push_05.png", gitpush05),
+        BigTitleSlide('Git Branching - Another Branch',  gitTitle6Intro),
+        TitleSlide('Git - Branching', 'push your to another line' , branchingIntro),
+        GitImageSlide("Github", "assets/git_push_beta_01.png", gitpush06),
+        GitImageSlide("Github", "assets/git_push_beta_02.png", gitpush07),
+
         CreditSlide('Credits', "Mangirdas Kazlauskas - https://github.com/mkobuolys/flutter_deck"),
         EndSlide('Thank you! 👋', "You can do it!"),
       ],
