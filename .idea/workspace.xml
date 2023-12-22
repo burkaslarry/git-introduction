@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339449a8-b9fc-493e-bf3c-0d7b6a8666ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/git_cherrypicking.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/git_rebase.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/git_push_04.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "Cherry-picking in main",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/larrylo/git-introduction/lib/slides",
     "node.js.detected.package.eslint": "true",
@@ -104,6 +107,7 @@
       <workItem from="1702990051212" duration="474000" />
       <workItem from="1703232904268" duration="3292000" />
       <workItem from="1703237421316" duration="41000" />
+      <workItem from="1703237637009" duration="1155000" />
     </task>
     <servers />
   </component>

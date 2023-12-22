@@ -38,21 +38,37 @@ class FlutterDeckExample extends StatelessWidget {
     const gotImage006Intro = FlutterDeckSlideConfiguration(route: '/image/6', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const gotImage007Intro = FlutterDeckSlideConfiguration(route: '/image/7', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
-    const sourcetryyImageIntro = FlutterDeckSlideConfiguration(route: '/image/app_sourcetree', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const downloadSourceTreeIntro = FlutterDeckSlideConfiguration(route: '/image/app_sourcetree', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const downloadIntelliJIntro = FlutterDeckSlideConfiguration(route: '/image/app_intelli', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
     const gitpush01 = FlutterDeckSlideConfiguration(route: '/image-push/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const gitpush02 = FlutterDeckSlideConfiguration(route: '/image-push/2', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const gitpush03 = FlutterDeckSlideConfiguration(route: '/image-push/3', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
-    const gitpush04 = FlutterDeckSlideConfiguration(route: '/image-push/4', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const gitpush05 = FlutterDeckSlideConfiguration(route: '/image-push/5', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
     const gitpush06 = FlutterDeckSlideConfiguration(route: '/image-push/6', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const gitpush07 = FlutterDeckSlideConfiguration(route: '/image-push/7', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
     const gitMergeConfig = FlutterDeckSlideConfiguration(route: '/merge/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitmerge01 = FlutterDeckSlideConfiguration(route: '/merge-example/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitmerge02 = FlutterDeckSlideConfiguration(route: '/merge-example/2', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+
     const gitConflictConfig = FlutterDeckSlideConfiguration(route: '/merge-conflict/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitConflictConfigSource = FlutterDeckSlideConfiguration(route: '/merge-conflict-source/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitConflict01 = FlutterDeckSlideConfiguration(route: '/merge-conflict-example/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitConflict02 = FlutterDeckSlideConfiguration(route: '/merge-conflict-example/2', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitConflictInelliJConfig = FlutterDeckSlideConfiguration(route: '/merge-conflict-int/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitConflictBeta01 = FlutterDeckSlideConfiguration(route: '/merge-conflict-example-inte/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitConflictBeta02 = FlutterDeckSlideConfiguration(route: '/merge-conflict-example-inte/2', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitConflictBeta03 = FlutterDeckSlideConfiguration(route: '/merge-conflict-example-inte/3', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const gitRebaseConfig = FlutterDeckSlideConfiguration(route: '/rebase/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitRebaseConfig01 = FlutterDeckSlideConfiguration(route: '/rebase/2', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitRebaseConfig02 = FlutterDeckSlideConfiguration(route: '/rebase/3', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+
+
     const gitRebaseCherryPickConfig = FlutterDeckSlideConfiguration(route: '/cherrypick/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitRebaseCherryPickConfig02 = FlutterDeckSlideConfiguration(route: '/cherrypick/2', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitRebaseCherryPickConfig03 = FlutterDeckSlideConfiguration(route: '/cherrypick/3', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
     return FlutterDeckApp(
       // You could use the default configuration or create your own.
@@ -134,8 +150,8 @@ class FlutterDeckExample extends StatelessWidget {
         GitImageSlide("Git - Branches", "assets/branches_1.png", branchIntro),
         GitImageSlide("Git - Branches", "assets/branches_2.png", branch2Intro),
         BigTitleSlide('Installation procedures', gitTitle2Intro),
-        GitImageSlide("SourceTree", "assets/app_sourcetree.png", sourcetryyImageIntro),
-        GitImageSlide("SourceTree", "assets/intelliJ.png", sourcetryyImageIntro),
+        GitImageSlide("SourceTree", "assets/app_sourcetree.png", downloadSourceTreeIntro),
+        GitImageSlide("SourceTree", "assets/intelliJ.png", downloadIntelliJIntro),
         BigTitleSlide('GitHub - Account setup', gitTitle3Intro),
         GitImageSlide("Github", "assets/github_qr.png", gotImage001Intro),
         BigTitleSlide('GitHub - Create repositories', gitTitle4Intro),
@@ -150,16 +166,31 @@ class FlutterDeckExample extends StatelessWidget {
         GitImageSlide("Github", "assets/git_push_01.png", gitpush01),
         GitImageSlide("Github", "assets/git_push_02.png", gitpush02),
         GitImageSlide("Github", "assets/git_push_03.png", gitpush03),
-        GitImageSlide("Github", "assets/git_push_04.png", gitpush04),
         GitImageSlide("Github", "assets/git_push_05.png", gitpush05),
-        BigTitleSlide('Git Branching - Another Branch',  gitTitle6Intro),
+        BigTitleSlide('Git Branching - Another Branch',  branchingIntro),
         GitImageSlide("Github", "assets/git_push_beta_01.png", gitpush06),
         GitImageSlide("Github", "assets/git_push_beta_02.png", gitpush07),
 
         BigTitleSlide('Git Merge',  gitMergeConfig),
+        GitImageSlide("Github", "assets/gitmerge_01.png", gitmerge01),
+        GitImageSlide("Github", "assets/gitmerge_02.png", gitmerge02),
+
         BigTitleSlide('Git Conflict Resolve',  gitConflictConfig),
+        GitImageSlide("Github", "assets/gitconflict_01.png", gitConflict01),
+        GitImageSlide("Github", "assets/gitconflict_02.png", gitConflict02),
+        BigTitleSlide('Resolve Conflict using SourceTree',  gitConflictConfigSource),
+        BigTitleSlide('Resolve Conflict using IntelliJ',  gitConflictInelliJConfig),
+        GitImageSlide("Github", "assets/gitconflict_int_01.png", gitConflictBeta01),
+        GitImageSlide("Github", "assets/gitconflict_int_02.png", gitConflictBeta02),
+        GitImageSlide("Github", "assets/gitconflict_int_03.png", gitConflictBeta03),
+
         BigTitleSlide('Git Rebase',  gitRebaseConfig),
+        TitleSlide('Git Rebase', 'Allows you to apply changes to updated code works  \n - Major Updates on Dev. Branch, \n - Is My code really work?' , gitRebaseConfig01),
+        GitImageSlide("Github", "assets/git_rebase.png", gitRebaseConfig02),
+
         BigTitleSlide('Git cherry-picking',  gitRebaseCherryPickConfig),
+        TitleSlide('Git cherry-picking', 'Allows you to apply specific commits to Target Branch, \n - Development \n - UAT, \n - Production' , gitRebaseCherryPickConfig02),
+        GitImageSlide("Github", "assets/git_cherrypicking.png", gitRebaseCherryPickConfig03),
 
         CreditSlide('Credits', "Mangirdas Kazlauskas - https://github.com/mkobuolys/flutter_deck"),
         EndSlide('Thank you! 👋', "You can do it!"),
