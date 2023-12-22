@@ -153,12 +153,8 @@ class FlutterDeckExample extends StatelessWidget {
         GitImageSlide("Github", "assets/git_push_04.png", gitpush04),
         GitImageSlide("Github", "assets/git_push_05.png", gitpush05),
         BigTitleSlide('Git Branching - Another Branch',  gitTitle6Intro),
-        TitleSlide('Git - Branching', 'push your to another line' , branchingIntro),
         GitImageSlide("Github", "assets/git_push_beta_01.png", gitpush06),
         GitImageSlide("Github", "assets/git_push_beta_02.png", gitpush07),
-
-
-        BigTitleSlide('Git Branching - Another Branch',  gitTitle6Intro),
 
         BigTitleSlide('Git Merge',  gitMergeConfig),
         BigTitleSlide('Git Conflict Resolve',  gitConflictConfig),
