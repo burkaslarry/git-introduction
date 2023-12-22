@@ -49,6 +49,10 @@ class FlutterDeckExample extends StatelessWidget {
     const gitpush06 = FlutterDeckSlideConfiguration(route: '/image-push/6', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const gitpush07 = FlutterDeckSlideConfiguration(route: '/image-push/7', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
+    const gitMergeConfig = FlutterDeckSlideConfiguration(route: '/merge/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitConflictConfig = FlutterDeckSlideConfiguration(route: '/merge-conflict/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitRebaseConfig = FlutterDeckSlideConfiguration(route: '/rebase/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitRebaseCherryPickConfig = FlutterDeckSlideConfiguration(route: '/cherrypick/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
     return FlutterDeckApp(
       // You could use the default configuration or create your own.
@@ -152,6 +156,14 @@ class FlutterDeckExample extends StatelessWidget {
         TitleSlide('Git - Branching', 'push your to another line' , branchingIntro),
         GitImageSlide("Github", "assets/git_push_beta_01.png", gitpush06),
         GitImageSlide("Github", "assets/git_push_beta_02.png", gitpush07),
+
+
+        BigTitleSlide('Git Branching - Another Branch',  gitTitle6Intro),
+
+        BigTitleSlide('Git Merge',  gitMergeConfig),
+        BigTitleSlide('Git Conflict Resolve',  gitConflictConfig),
+        BigTitleSlide('Git Rebase',  gitRebaseConfig),
+        BigTitleSlide('Git cherry-picking',  gitRebaseCherryPickConfig),
 
         CreditSlide('Credits', "Mangirdas Kazlauskas - https://github.com/mkobuolys/flutter_deck"),
         EndSlide('Thank you! 👋', "You can do it!"),
