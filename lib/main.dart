@@ -17,134 +17,26 @@ class FlutterDeckExample extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // This is an entry point for the Flutter Deck app.
+    const firstIntro = FlutterDeckSlideConfiguration(route: '/intro', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitTitleIntro = FlutterDeckSlideConfiguration(route: '/intro/1', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitTitle2Intro = FlutterDeckSlideConfiguration(route: '/intro/2', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const aIntro = FlutterDeckSlideConfiguration(route: '/intro-git/1', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const bIntro = FlutterDeckSlideConfiguration(route: '/intro-git/2', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const cIntro = FlutterDeckSlideConfiguration(route: '/intro-git/3', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
-    // This is a list of [FlutterDeckSlideConfiguration]
+    const gitTitle3Intro = FlutterDeckSlideConfiguration(route: '/intro/3', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitTitle4Intro = FlutterDeckSlideConfiguration(route: '/intro/4', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitTitle5Intro = FlutterDeckSlideConfiguration(route: '/intro/5', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitTitle6Intro = FlutterDeckSlideConfiguration(route: '/intro/6', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gotImage001Intro = FlutterDeckSlideConfiguration(route: '/image/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gotImage002Intro = FlutterDeckSlideConfiguration(route: '/image/2', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gotImage003Intro = FlutterDeckSlideConfiguration(route: '/image/3', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gotImage004Intro = FlutterDeckSlideConfiguration(route: '/image/4', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gotImage005Intro = FlutterDeckSlideConfiguration(route: '/image/5', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gotImage006Intro = FlutterDeckSlideConfiguration(route: '/image/6', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gotImage007Intro = FlutterDeckSlideConfiguration(route: '/image/7', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
-    const firstIntro = FlutterDeckSlideConfiguration(
-      route: '/intro',
-      header: FlutterDeckHeaderConfiguration(showHeader: false),
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-    const gitTitleIntro = FlutterDeckSlideConfiguration(
-      route: '/intro/1',
-      header: FlutterDeckHeaderConfiguration(showHeader: false),
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-    const gitTitle2Intro = FlutterDeckSlideConfiguration(
-      route: '/intro/2',
-      header: FlutterDeckHeaderConfiguration(showHeader: false),
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-
-    const aIntro = FlutterDeckSlideConfiguration(
-      route: '/intro-git/1',
-      header: FlutterDeckHeaderConfiguration(showHeader: false),
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-
-    const bIntro = FlutterDeckSlideConfiguration(
-      route: '/intro-git/2',
-      header: FlutterDeckHeaderConfiguration(showHeader: false),
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-
-
-    const cIntro = FlutterDeckSlideConfiguration(
-      route: '/intro-git/3',
-      header: FlutterDeckHeaderConfiguration(showHeader: false),
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-
-    const gitTitle3Intro = FlutterDeckSlideConfiguration(
-      route: '/intro/3',
-      header: FlutterDeckHeaderConfiguration(showHeader: false),
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-    const gitTitle4Intro = FlutterDeckSlideConfiguration(
-      route: '/intro/4',
-      header: FlutterDeckHeaderConfiguration(showHeader: false),
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-    const gitTitle5Intro = FlutterDeckSlideConfiguration(
-      route: '/intro/5',
-      header: FlutterDeckHeaderConfiguration(showHeader: false),
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-
-    const gitTitle6Intro = FlutterDeckSlideConfiguration(
-      route: '/intro/6',
-      header: FlutterDeckHeaderConfiguration(showHeader: false),
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-    const gotImage001Intro = FlutterDeckSlideConfiguration(
-      route: '/image/1',
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-    const gotImage002Intro = FlutterDeckSlideConfiguration(
-      route: '/image/2',
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-
-    const gotImage003Intro = FlutterDeckSlideConfiguration(
-      route: '/image/3',
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-    const gotImage004Intro = FlutterDeckSlideConfiguration(
-      route: '/image/4',
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-    const gotImage005Intro = FlutterDeckSlideConfiguration(
-      route: '/image/5',
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-    const gotImage006Intro = FlutterDeckSlideConfiguration(
-      route: '/image/6',
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-    const gotImage007Intro = FlutterDeckSlideConfiguration(
-      route: '/image/7',
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
-
-    const sourcetryyImageIntro = FlutterDeckSlideConfiguration(
-      route: '/image/app_sourcetree',
-      footer: FlutterDeckFooterConfiguration(showFooter: false,
-          showSlideNumbers: true),
-    );
+    const sourcetryyImageIntro = FlutterDeckSlideConfiguration(route: '/image/app_sourcetree', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
 
     return FlutterDeckApp(
@@ -222,7 +114,10 @@ class FlutterDeckExample extends StatelessWidget {
         //TitleSlide(title:'Introduction To Git🚀', subtitle: 'Enable Collaboration Across the Globe'),
         TitleSlide('Introduction To Git🚀', 'Enable Collaboration Across the Globe', firstIntro),
         BigTitleSlide('What is Git?', gitTitleIntro),
-        TitleSlide('Git - Version Control System', 'allows multiple developers to work on the same project concurrently \n - Collaboration \n - Version Tracking, \n - Code Quality' , aIntro),
+        TitleSlide('Git - Version Control System', 'Allows multiple developers to work on the same project concurrently \n - Collaboration \n - Version Tracking, \n - Code Quality' , aIntro),
+        TitleSlide('Git - Branches', 'parallel line of development that allows you to isolate changes and experiment without affecting the main codebase.' , bIntro),
+        GitImageSlide("Git - Branches", "assets/branches_1.png", cIntro),
+        GitImageSlide("Git - Branches", "assets/branches_2.png", cIntro),
         BigTitleSlide('Installation procedures', gitTitle2Intro),
         GitImageSlide("SourceTree", "assets/app_sourcetree.png", sourcetryyImageIntro),
         BigTitleSlide('GitHub - Account setup', gitTitle3Intro),
