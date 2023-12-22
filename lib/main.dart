@@ -39,6 +39,13 @@ class FlutterDeckExample extends StatelessWidget {
 
     const sourcetryyImageIntro = FlutterDeckSlideConfiguration(route: '/image/app_sourcetree', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
+    const gitpush01 = FlutterDeckSlideConfiguration(route: '/image-push/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitpush02 = FlutterDeckSlideConfiguration(route: '/image-push/2', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitpush03 = FlutterDeckSlideConfiguration(route: '/image-push/3', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitpush04 = FlutterDeckSlideConfiguration(route: '/image-push/4', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitpush05 = FlutterDeckSlideConfiguration(route: '/image-push/5', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+
+
 
     return FlutterDeckApp(
       // You could use the default configuration or create your own.
@@ -133,6 +140,11 @@ class FlutterDeckExample extends StatelessWidget {
         GitImageSlide("Github", "assets/sourcetree_1.png", gotImage006Intro),
         GitImageSlide("Github", "assets/sourcetree_2.png", gotImage007Intro),
         BigTitleSlide('Git push',  gitTitle6Intro),
+        GitImageSlide("Github", "assets/git_push_01.png", gitpush01),
+        GitImageSlide("Github", "assets/git_push_02.png", gitpush02),
+        GitImageSlide("Github", "assets/git_push_03.png", gitpush03),
+        GitImageSlide("Github", "assets/git_push_04.png", gitpush04),
+        GitImageSlide("Github", "assets/git_push_05.png", gitpush05),
         CreditSlide('Credits', "Mangirdas Kazlauskas - https://github.com/mkobuolys/flutter_deck"),
         EndSlide('Thank you! 👋', "You can do it!"),
       ],

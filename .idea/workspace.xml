@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339449a8-b9fc-493e-bf3c-0d7b6a8666ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/intelliJ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/git_push_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/git_push_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/git_push_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/git_push_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/git_push_05.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +106,7 @@
       <workItem from="1702990001444" duration="25000" />
       <workItem from="1702990031463" duration="14000" />
       <workItem from="1702990051212" duration="474000" />
-      <workItem from="1703232904268" duration="2698000" />
+      <workItem from="1703232904268" duration="3064000" />
     </task>
     <servers />
   </component>
