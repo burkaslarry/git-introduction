@@ -24,6 +24,7 @@ class FlutterDeckExample extends StatelessWidget {
     const bIntro = FlutterDeckSlideConfiguration(route: '/intro-git/2', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const branchIntro = FlutterDeckSlideConfiguration(route: '/intro-branch/1', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const branch2Intro = FlutterDeckSlideConfiguration(route: '/intro-branch/2', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const branchingIntro = FlutterDeckSlideConfiguration(route: '/intro-git/3', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
     const gitTitle3Intro = FlutterDeckSlideConfiguration(route: '/intro/3', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
     const gitTitle4Intro = FlutterDeckSlideConfiguration(route: '/intro/4', header: FlutterDeckHeaderConfiguration(showHeader: false), footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
@@ -39,6 +40,10 @@ class FlutterDeckExample extends StatelessWidget {
 
     const sourcetryyImageIntro = FlutterDeckSlideConfiguration(route: '/image/app_sourcetree', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
+    const gitMergeConfig = FlutterDeckSlideConfiguration(route: '/merge/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitConflictConfig = FlutterDeckSlideConfiguration(route: '/merge-conflict/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitRebaseConfig = FlutterDeckSlideConfiguration(route: '/rebase/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
+    const gitRebaseCherryPickConfig = FlutterDeckSlideConfiguration(route: '/cherrypick/1', footer: FlutterDeckFooterConfiguration(showFooter: false, showSlideNumbers: true));
 
     return FlutterDeckApp(
       // You could use the default configuration or create your own.
@@ -132,7 +137,14 @@ class FlutterDeckExample extends StatelessWidget {
         GitImageSlide("SourceTree", "assets/sourcetree_0.png", gotImage005Intro),
         GitImageSlide("Github", "assets/sourcetree_1.png", gotImage006Intro),
         GitImageSlide("Github", "assets/sourcetree_2.png", gotImage007Intro),
-        BigTitleSlide('Git push',  gitTitle6Intro),
+
+        BigTitleSlide('Git Branching - Another Branch',  gitTitle6Intro),
+
+        BigTitleSlide('Git Merge',  gitMergeConfig),
+        BigTitleSlide('Git Conflict Resolve',  gitConflictConfig),
+        BigTitleSlide('Git Rebase',  gitRebaseConfig),
+        BigTitleSlide('Git cherry-picking',  gitRebaseCherryPickConfig),
+
         CreditSlide('Credits', "Mangirdas Kazlauskas - https://github.com/mkobuolys/flutter_deck"),
         EndSlide('Thank you! 👋', "You can do it!"),
       ],
