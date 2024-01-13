@@ -6,7 +6,7 @@ Welcome to the Git Introduction repository! This repository serves as a resource
 
 You can access the live demo of the web application at [git-introduction-burkaslarry.vercel.app](https://git-introduction-burkaslarry.vercel.app).
 
-## Table of Contents
+## Table of Contents (test)
 
 - [About](#about)
 - [Installation](#installation)
